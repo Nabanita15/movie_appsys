@@ -1,0 +1,152 @@
+/* *
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.header
+{
+ display: flex;
+ flex-direction: row;
+ background-color: black;
+ color: white;
+ padding: 10px;
+ font-size: 25px;
+ font-weight: bold;
+ box-shadow: 0 3px 6px 0 #555;
+ justify-content: space-between;
+ align-items: center;
+}
+.appName
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.searchBox
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 20px;
+    width: 50%;
+    align-items: center;
+}
+.searchInput
+{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin-left: 15px;
+}
+.movieContainer
+{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    padding: 30px;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.movieCon
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 280px;
+    box-shadow: 0 3px 10px 0 #4e4d4d;
+    cursor: pointer;
+}
+.movieName
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin: 15px 0;
+    text-transform: capitalize;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.infocolumn
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.movieinfos
+{ 
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;  
+}
+.containerinfo
+{
+ display: flex;
+ justify-content:center;
+ flex-direction: row;
+ padding: 20px 30px;
+ border-bottom: 1px solid lightgray;
+ box-shadow: 0 3px 10px 0 lightgray;
+}
+.info_column
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.movienamedata
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin: 15px 0;
+    text-transform: capitalize;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.moviedata
+{
+    font-size: 15px;
+    font-weight:100;
+    color: black;
+    margin: 2.5px 0;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+span
+{opacity: 0.5;
+cursor: pointer;
+}
+.close
+{
+  
+  font-size: 8px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: black;
+  background: rgb(237, 235, 235);
+  height: fit-content;
+  padding: 8px;
+  border-radius: 90px;
+  cursor: pointer;
+  opacity: 0.8;
+}
